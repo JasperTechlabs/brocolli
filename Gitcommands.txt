@@ -1,0 +1,61 @@
+1.Install git:
+
+sudo apt-get install git-core
+
+
+2.Set Global configuration variables:
+git config --global user.name "Raju"
+git config --global user.email "jasperembedded@gmail.com"
+git config --list
+git config --help
+
+3.Tracking a local repository
+git init
+git status
+
+4.Three areas in git
+
+Adding files to staging area
+git add filename
+git add -A
+git reset filename----> Remove files from staging area
+git reset
+git log
+
+
+5.Working on existing repository
+
+git clone https://github.com/JasperTechlabs/brocolli.git
+
+git remote -v
+git branch -a
+git pull origin master
+git push origin master
+
+6.Creating Branch
+git branch xxxxx
+git checkout xxxx
+git branch -> lists the branches
+git push -u origin LinuxBranch
+
+
+7.Merging branch to master branch
+
+git checkout master
+git pull origin master
+git branch --merged
+git merge LinuxBranch
+
+8. Deleting a Branch:
+
+
+
+https://github.com/JasperTechlabs/brocolli.git
+
+
+
+
+
+
+
+
